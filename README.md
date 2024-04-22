@@ -8,3 +8,4 @@ A collection of Hyprland dotfiles
 - Kitty
 - ZSH
 - [Starship](https://starship.rs/)
+- cava
