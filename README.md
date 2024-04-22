@@ -1,5 +1,5 @@
 # Hyprland Dots
-A collection of Hyprland dotfiles
+A collection of Hyprland dotfiles centered around the Catppuccin Mocha colour scheme
 
 ## Requirements
 - Nerd font
@@ -8,6 +8,6 @@ A collection of Hyprland dotfiles
 - Kitty
 - ZSH
 - [Starship](https://starship.rs/)
-- cava
-- rofi
-- btop
+- Cava
+- Rofi
+- Btop
