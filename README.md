@@ -1,5 +1,10 @@
 # Hyprland Dots
 A collection of Hyprland dotfiles
 
-# Requirements
+## Requirements
 - Nerd font
+
+## Programs
+- Kitty
+- ZSH
+- [Starship](https://starship.rs/)
