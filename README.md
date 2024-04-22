@@ -9,3 +9,5 @@ A collection of Hyprland dotfiles
 - ZSH
 - [Starship](https://starship.rs/)
 - cava
+- rofi
+- btop
