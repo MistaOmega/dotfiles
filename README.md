@@ -11,3 +11,4 @@ A collection of Hyprland dotfiles centered around the Catppuccin Mocha colour sc
 - Cava
 - Rofi
 - Btop
+- nvim (LazyVim)
