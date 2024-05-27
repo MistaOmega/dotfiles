@@ -12,7 +12,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
-alias hyprconf='nano ~/.config/hypr/hyprland.conf'
+alias hyprconf='nvim ~/.config/hypr/hyprland.conf'
+alias resolve='LD_PRELOAD="/usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so" /opt/resolve/bin/resolve'
 
 eval "$(starship init zsh)" # Starship
 eval "$(zoxide init zsh)" # Zoxide

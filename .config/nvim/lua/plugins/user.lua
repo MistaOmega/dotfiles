@@ -12,4 +12,8 @@ return {
       vim.fn["mkdp#util#install"]()
     end,
   },
+  {
+    "ThePrimeagen/vim-be-good",
+    lazy = false,
+  },
 }
