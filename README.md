@@ -5,6 +5,7 @@ A collection of Hyprland dotfiles centered around the Catppuccin Mocha colour sc
 - Nerd font
 
 ## Programs
+- Hyprland
 - Kitty
 - ZSH
 - [Starship](https://starship.rs/)
