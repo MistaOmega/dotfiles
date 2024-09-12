@@ -1,0 +1,104 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/MistaOmega.png",
+    "height": 18
+  },
+  "display": {
+    "separator": "  ",
+    "color": "white"
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "┌──────────────────────  Hardware ──────────────────────┐"
+    },
+    {
+      "type": "cpu",
+      "key": "   CPU            ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "memory",
+      "key": "   Memory         ",
+      "keyColor": "blue"
+    },
+    {
+      "type": "board",
+      "key": "   Board          ",
+      "format": "{1}",
+      "keyColor": "blue"
+    },
+    "break",
+    {
+      "type": "gpu",
+      "format": "{2}",
+      "key": "  󰛇 GPU            ",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "gpu",
+      "key": "  󰓔 GPU Driver     ",
+      "format": "{3}",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 Display        ",
+      "keyColor": "yellow",
+      "compactType": "original"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "├──────────────────────  Software ──────────────────────┤"
+    },
+    {
+      "type": "os",
+      "key": "   OS             ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel         ",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "shell",
+      "key": "   Shell          ",
+      "keyColor": "magenta"
+    },
+    "break",
+    {
+      "type": "wm",
+      "key": "   WM             ",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "terminal",
+      "key": "   Terminal       ",
+      "keyColor": "cyan"
+    },
+    "break",
+    {
+      "type": "packages",
+      "key": "   Packages       ",
+      "keyColor": "red"
+    },
+    {
+      "type": "uptime",
+      "key": "  󱫐 Uptime         ",
+      "keyColor": "red"
+    },
+    {
+      "type": "custom",
+      "format": "└────────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 22
+    }
+  ]
+}
