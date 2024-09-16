@@ -24,7 +24,7 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 600
+    width = 0,450
 
     # The maximum height of a single notification, excluding the frame.
     height = 300
@@ -103,7 +103,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#89b4fa"
+    frame_color = "#fab387"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -341,7 +341,7 @@ foreground = "#cdd6f4"
 [urgency_critical]
 background = "#1e1e2e"
 foreground = "#cdd6f4"
-frame_color = "#fab387"
+frame_color = "#f38ba8"
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
