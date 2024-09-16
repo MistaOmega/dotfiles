@@ -7,9 +7,11 @@ A collection of Hyprland dotfiles centered around the Catppuccin Mocha colour sc
 ## Programs
 - Hyprland
 - Kitty
-- ZSH
+- Fish
 - [Starship](https://starship.rs/)
 - Cava
 - Rofi
 - Btop
 - nvim (LazyVim)
+- Waybar
+- Fastfetch
