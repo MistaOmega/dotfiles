@@ -3,7 +3,7 @@ if status is-interactive
     starship init fish | source
     zoxide init fish | source
     set -g EDITOR nvim
-    set fish_greeting "🐟"
+    set -U ANDROID_HOME /home/jack/Android/Sdk/
 end
 
 fish_add_path /home/jack/.spicetify

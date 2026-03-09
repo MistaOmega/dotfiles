@@ -18,10 +18,10 @@
          "format": "{icon}",
          "format-icons": {
              "1": " ",
-             "2": "󪥢",
-             "3": "󰈹",
-             "4": "",
-             "5": "󪥢",
+             "2": " ",
+             "3": "󰈹 ",
+             "4": " ",
+             "5": " ",
              "urgent": "󪥈",
              "focused": "󪤪",
              "default": "󪤰"
@@ -87,8 +87,8 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "󪤪",
-            "deactivated": "󪤽"
+            "activated": "󰣇 ",
+            "deactivated": "󰣇 "
         }
     },
     "tray": {
@@ -178,7 +178,7 @@
         "on-scroll-down": "playerctl previous"
     },
     "custom/launcher" : {
-  	    "format" : "",
+  	    "format" : "󰣇 ",
   	    "on-click" : "/usr/bin/rofi -show drun"
     },
 }
