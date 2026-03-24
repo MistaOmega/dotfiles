@@ -3,7 +3,8 @@ if status is-interactive
     starship init fish | source
     zoxide init fish | source
     set -g EDITOR nvim
-    set -U ANDROID_HOME /home/jack/Android/Sdk/
+    set -U ANDROID_HOME /home/jackn/Android/Sdk/
 end
 
-fish_add_path /home/jack/.spicetify
+fish_add_path /home/jackn/.spicetify
+export PATH="$HOME/.local/bin:$PATH"
